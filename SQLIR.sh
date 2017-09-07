@@ -17,7 +17,7 @@ sleep 60
 dpkg-query -W mysql-server
 
 if $? eq '0';then
-    echo "mysql server successully installed"
+    echo "mysql server successfully installed"
 else 
      echo "mysql server not installed"
 fi 
